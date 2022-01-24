@@ -46,7 +46,7 @@ theColorModeButton.addEventListener("click", e=>{
         theCircleText.textContent = "Light"
         theStringValue.style.cssText = "color:white;"
         theEqualValue.style.cssText = "color:white"
-        thatBorderBottom.style.cssText = "border-bottom:1px solid #fffffffc;"
+        thatBorderBottom.style.cssText = "border-bottom:1px solid #ffffff0c;"
         holder6 = 0;
     }
 })
