@@ -13,7 +13,8 @@ let allBtns = document.querySelectorAll(".btn") // Select all the buttons
    ,theColorModeButton = document.querySelector(".color-mode")
    ,theCircle = document.querySelector(".circle")
    ,theCircleText = document.querySelector(".lORd")
-   ,theMainContainer = document.querySelector(".main-container");
+   ,theMainContainer = document.querySelector(".main-container")
+   ,thatBorderBottom = document.querySelector(".the-equal");
 
 
 let globalCurrentString = [];
@@ -34,6 +35,7 @@ theColorModeButton.addEventListener("click", e=>{
         theCircleText.textContent = "Dark"
         theStringValue.style.cssText = "color:black;"
         theEqualValue.style.cssText = "color:black"
+       thatBorderBottom.style.cssText = "border-bottom:1px solid #0000000c;"
         holder6 = 1;
     }else if(holder6 == 1){
         theBody.classList.remove("toWhite")
@@ -44,6 +46,7 @@ theColorModeButton.addEventListener("click", e=>{
         theCircleText.textContent = "Light"
         theStringValue.style.cssText = "color:white;"
         theEqualValue.style.cssText = "color:white"
+       thatBorderBottom.style.cssText = "border-bottom:1px solid #fffffffc;"
         holder6 = 0;
     }
 })
