@@ -39,6 +39,7 @@ body{
     height: 80px;
     margin-top: auto;
     border-bottom: 1px solid #ffffff0c;
+    overflow: hidden;
 }
 .simbol{
     font-size: 4rem;
@@ -55,6 +56,7 @@ body{
     align-items: center;
     width: 100%; 
     height: 60px;
+    overflow: hidden;
 }
 .the-string-value{
     display: inline;
