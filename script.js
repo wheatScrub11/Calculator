@@ -152,7 +152,11 @@ const pasteResultOnMainBox = function(theResult){
     theEqualValue.textContent = `${theResult}`
 }
 const pasteStringOnMainBox = function(){
-    theStringValue.textContent = `${globalCurrentString}`
+    let pepe = "";
+    globalCurrentString.forEach(element => {
+        pepe += element;
+    });
+    theStringValue.textContent = `${pepe}`
 }
 
 equalsBtn.addEventListener("click", e =>{
